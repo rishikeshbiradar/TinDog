@@ -1,0 +1,194 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+ 
+h1,h2,h3,h4,h5,h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* Headings */
+.big-heading
+{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color:white;
+}
+
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* Sections */
+.coloured-section
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section
+{
+    background-color: #fff;
+}
+
+
+
+
+/* Navigation Bar Section */
+.navbar{
+    padding:0px 0px 4.5rem;
+}
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.nav-items
+{
+    padding: 0px 18px;
+}
+.nav-link
+{
+    font-size:1.2;
+    font-weight:bold;
+}
+
+/* Download-buttons */
+.download-button
+{
+    margin:4% 3% 4% 0px;
+}
+
+/* Title */
+#title
+{
+    text-align: left; 
+}
+#title .container-fluid{
+    padding: 3% 15% 7% ;
+}
+.title-image
+{
+    width:23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+ }
+
+/* Features Section */
+#features
+{
+    position: relative;
+}
+.feature-box
+{
+    padding:5%;
+}
+.feature-title
+{
+    font-size: 2rem;
+}
+
+/* icon */
+.icon
+{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color:#ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials
+{
+    background-color:#ef8172;
+}
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+/* Press Section */
+#press{
+    background-color:#ef8172;
+    padding: 3%;
+}
+.press-logo
+{
+    width:15%;
+    padding: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing
+{
+    padding:100px;
+}
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-title
+{
+    font-size: 2rem;
+}
+.pricing-columns
+{
+    padding: 3%;
+}
+
+/* Call To Action Section */
+
+/* Footer Section */
+.social-icon
+{
+    margin:20px 10px;
+}
+.host
+{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position:static;
+        width: 70%;
+        transform: rotate(0);
+    }
+}
+
