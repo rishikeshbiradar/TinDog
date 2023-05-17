@@ -1,2 +1,2 @@
 # tindog
-My Tindog Website from Complete Web Development
+My Tindog Website using Frontend Development
